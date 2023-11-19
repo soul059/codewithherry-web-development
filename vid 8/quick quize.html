@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Quize</title>
+</head>
+
+<body>
+    <form action="post">
+        <div>
+            <label for="name">Name: </label>
+            <input type="text" id="name" name="username" placeholder="your name">
+        </div>
+        <div>
+            <label for="city">City: </label>
+            <select id="city" name="city">
+                <option value="New York">New York</option>
+                <option value="Los Angeles">Los Angeles</option>
+                <option value="Chicago">Chicago</option>
+                <option value="Houston">Houston</option>
+                <option value="Phoenix">Phoenix</option>
+                <option value="Philadelphia">Philadelphia</option>
+                <option value="San Antonio">San Antonio</option>
+            </select>
+        </div>
+        <div>
+            <label for="pincode">Enter your city pincode</label>
+            <input type="text" minlength="5" maxlength="6" id="pincode" name="pincode" required>
+        </div>
+    </form>
+</body>
+
+</html>

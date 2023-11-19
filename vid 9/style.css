@@ -1,0 +1,10 @@
+.red
+{
+    color: rgb(255, 0, 0);
+}
+#seconddiv{
+    background-color: yellow;
+}
+#firstdiv{
+    background-color: aqua;
+}
