@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Poppins:wght@300&display=swap');
+:root{
+    --bco: rgb(191, 198, 198);
+    --bico: aliceblue;
+}
+*{
+    background-color: var(--bco);
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Baloo Bhai 2', sans-serif;
+}
+.perent{
+    background-color: var(--bico);
+    border: 2px solid black;
+    border-radius: 30px;
+    width: 540px;
+    height: 600px;
+    margin: 50px auto;
+    /* position: fixed;
+    left: 30vw;
+    top: 15vh;
+     */
+}
+.about > ul{
+    background-color: var(--bico);
+    list-style: none;
+    display: flex;
+    /* flex-direction: row; */
+}
+.about > ul >li:nth-child(2){
+    padding: 0px 10px;
+}
+.about > ul >li:nth-child(1){
+    padding: 0px 10px;
+}
+.about > ul >li:nth-child(3){
+    padding: 0px 10px;
+}
+.about > ul >li{
+    background-color: var(--bico);
+    display: block;
+    border: 1px solid rgb(59, 56, 56);
+    border-radius: 30px;
+    margin: 0px 6px;
+}
+
+img{
+    display: block;
+    position: relative;
+    border-radius: 30px;
+    top: 8px;
+    left: 20px;
+}
+.latter{
+    background-color: var(--bico);
+    position: relative;
+    top: 16px;
+    left: 29px;
+    width: 500px;
+}
+.dis > h2,p{
+    background-color: var(--bico);
+}
+.dis > h2{
+    font-family: 'Poppins', sans-serif;
+}
+.dis{
+    position: relative;
+    top: 30px;
+    /* left: 30px; */
+    width: 500px;
+}
+
+a{
+    display: block;
+    position: relative;
+    background-color: rgb(199, 193, 255);
+    top: 90px;
+    left: 220px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+a::before{
+color: aqua;
+}
+::after
+{
+    color: aqua;
+}
+a:hover{
+    background-color: rgb(141, 141, 230);
+}

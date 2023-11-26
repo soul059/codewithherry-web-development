@@ -1,0 +1,26 @@
+Installing VS Code & How Websites Work
+Your First HTML Website
+Basic Structure of an HTML Website
+Heading, Paragraphs and Links
+Image, Lists, and Tables in HTML
+SEO and Core Web Vitals in HTML
+Forms and input tags in HTML
+Inline & Block Elements in HTML
+Id & Classes in HTML
+Video, Audio & Media in HTML
+Semantic Tags in HTML
+Exercise 1 - Pure HTML Media Player
+Entities, Code tag and more on HTML
+Introduction to CSS
+Inline, Internal & External CSS
+Exercise 1 - Solution & Shoutouts
+CSS Selectors MasterClass
+CSS Box Model - Margin, Padding & Borders
+CSS Fonts, Text & Color Properties
+Exercise 2 - CSS Challenge
+CSS Specificity & Cascade
+CSS Sizing Units - px, rem, em, vh, vw, % & more
+CSS Display Property
+CSS Shadows and Outlines
+Styling Lists using CSS
+CSS Overflow Property

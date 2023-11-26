@@ -1,0 +1,53 @@
+/* Element selector */
+div{
+    background-color: aquamarine;
+}
+
+/* class selector */
+.red{
+    background-color: red;
+}
+
+/* ID selector */
+#green{
+    background-color: green;
+}
+
+/* child selector */
+div > p{
+    color: blueviolet;
+    background-color: aqua;
+}
+
+/* Descendant selector */
+div p{
+    color: aquamarine;
+    font-size: 20px;
+}
+
+/* Universal Selector */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Pseudo Selector */
+a:visited{
+    color: aqua;
+}
+
+a:link{
+    color: blueviolet;
+}
+
+a:active{
+    color: darkmagenta;
+}
+
+a:hover{
+    background-color: fuchsia;
+}
+
+p:first-child{
+    background-color: aqua;
+}

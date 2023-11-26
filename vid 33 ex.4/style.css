@@ -1,0 +1,43 @@
+:root{
+    --bcolor: rgb(167, 66, 178);
+    --texcol: white;
+    --navco: blueviolet;
+    --bodycol:antiquewhite;
+}
+body{
+    background-color: var(--bodycol);
+}
+nav{
+    background-color:var(--navco);
+    border-radius: 20px;
+}
+
+nav > ul{
+    list-style-type: none;
+    padding: 3px 25px;
+    margin: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    /* justify-content: space-around; */
+}
+
+nav > ul > li{
+    padding: 0px 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: var(--bcolor);
+}
+nav  ul li{
+    padding: 6px;
+    margin: 0px 5px;
+}
+nav > ul > li > a{
+    text-decoration: none;
+    color: var(--texcol);
+
+}
+nav > ul > li > a:hover{
+    color: aqua;
+    background-color: var(--bcolor);
+}
+
