@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>random color & background color</title>
+    <style>
+        .boxes{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .box{
+            margin: 10px;
+            width: 50px;
+            height: 50px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="boxes">
+        <div class="box">box</div>
+        <div class="box">box</div>
+        <div class="box">box</div>
+        <div class="box">box</div>
+        <div class="box">box</div>
+        <div class="sol">
+            It seems like you're trying to change the color of elements with the class `.box` to a random color from an array. However, there are a few issues with your code. Here's the corrected version:
+
+```javascript
+let x = Math.floor(Math.random() * 10);
+console.log(x);
+let c = ["red", "blue", "green", "white", "purple", "black", "yellow", "pink", "brown", "orange"];
+let e = document.querySelectorAll(".box");
+for(let i = 0; i &lt; e.length; i++){
+    e[i].style.color = c[x];
+    e[i].style.backgroundColor = c[x];
+}
+```
+
+Here's what I changed:
+- Fixed the typo in "yellow".
+- `querySelectorAll` returns a NodeList, so you need to loop through each element to apply the style.
+- The property for changing text color is `color`, not `Color`.
+- The property for changing background color is `backgroundColor`, not `backgrouncolor`.
+        </div>
+    </div>
+    <script src="/vid 70 ex.12/script.js"></script>
+</body>
+</html>

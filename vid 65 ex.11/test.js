@@ -7,7 +7,7 @@ function factor(num) {
   
 };
 
-let x =prompt("enter the number");
+let x = prompt("enter the number");
 parseInt(x, 10)
 factor(x);
 console.log(array.reduce(function(a, b) {

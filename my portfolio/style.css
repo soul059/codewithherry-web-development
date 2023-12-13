@@ -115,6 +115,7 @@ nav{
 
 .content{
     width: 40vh;
+    margin: auto;
 }
 
 .content div{
@@ -208,6 +209,13 @@ nav{
             justify-content: center;
             align-items: center;
         }
+
+
     }
 }
 
+@media screen and (max-width:400px){
+    .photo{
+        visibility: hidden;
+    }
+}
