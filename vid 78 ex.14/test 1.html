@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacking</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .text p{
+            font-size: 18px;
+            font-family: sans-serif;
+            color: rgb(76, 218, 76);
+        }
+        p span{
+            font-size: 30px;
+        }
+
+        .b1{
+            animation: blink 0.2s infinite;
+        }
+
+        .b2{
+            animation: blink 0.4s infinite;
+        }
+        .b3{
+            animation: blink 0.6s infinite;
+        }
+
+        @keyframes blink{
+            from {
+                opacity: 100;
+                /* display: none; */
+            }
+            to {
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="text">
+           
+        </div>
+    </main>
+    <script>
+    let arr =["Initizing Hacking <span class=\"b1\">.</span><span class=\"b2\">.</span><span class=\"b3\">.</span>","Reading your Files <span class=\"b1\">.</span><span class=\"b2\">.</span><span class=\"b3\">.</span>","Password files Detected <span class=\"b1\">.</span><span class=\"b2\">.</span><span class=\"b3\">.</span>","Sending all Password and personal files to server <span class=\"b1\">.</span><span class=\"b2\">.</span><span class=\"b3\">.</span>","Cleaning up <span class=\"b1\">.</span><span class=\"b2\">.</span><span class=\"b3\">.</span>"]
+
+        const randomdaly =() =>{
+            return new Promise((resolve, reject) => { 
+                let x = 1 + Math.random()*6
+                setTimeout(() =>{resolve()},x*1000)
+             })
+        }
+        const intxt = async (a) =>{
+            
+            await randomdaly();
+            let intxt = document.querySelector(".text");
+            let p = document.createElement("p");
+            p.innerHTML=a;
+            intxt.append(p);
+        }
+        async function main(){
+        
+            for(i=0;i<arr.length;i++)
+            {
+                await intxt(arr[i]);
+            }
+        }
+        
+        main();
+        </script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(3, 99, 99);
+}
+main{
+    height: 50vh;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30vh;
+    background-color: rgb(37, 36, 35);
+    border-radius: 12px;
+}
+
+button{
+    padding: 5px;
+    width: 90px;
+    border-radius: 8px;
+    border: 0px;
+    background-color: rgb(155, 16, 155);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ul{
+    position: relative;
+    left: -15px;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+li{
+    
+    overflow-wrap: anywhere;
+}
