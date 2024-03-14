@@ -34,4 +34,5 @@ console.log(x.trim());
 // Output: keval if any spaces
 
 
+console.log(x.slice(x.search("al")));
 
