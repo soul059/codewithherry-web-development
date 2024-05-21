@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opacity and Display Transition</title>
+    <style>
+        .element {
+            opacity: 0;
+            display: none;
+            transition: visibility 0s, opacity 0.5s linear; /* Smooth transition */
+        }
+        .element.visible {
+            opacity: 1;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="element">
+        <!-- Your content here (e.g., an image) -->
+        <img src="https://th.bing.com/th/id/OIP.PYipJ_hSncugM2SwnZitvgHaEK?rs=1&pid=ImgDetMain" alt="Your Image">
+    </div>
+    <button onclick="toggleElement()">Toggle Element</button>
+
+    <script>
+        function toggleElement() {
+            const element = document.querySelector('.element');
+            element.classList.toggle('visible');
+        }
+    </script>
+</body>
+</html>
